@@ -14,8 +14,8 @@ sudo ln -s libuv.so.1.0.0 libuv.so.1
 sudo ln -s librdkafka.so.1 librdkafka.so
 sudo ln -s librdkafka++.so.1 librdkafka++.so
 
-ls libpcre* 
-ls libuv*
-ls librdkafka*
+ls -ls libpcre* 
+ls -ls libuv*
+ls -ls librdkafka*
 
 sudo ldconfig
