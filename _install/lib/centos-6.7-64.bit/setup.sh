@@ -1,5 +1,5 @@
 
-~/logkafka/_install/lib
+cd ~/logkafka/_install/lib/centos-6.7-64.bit/
 sudo cp libpcre* /usr/local/lib/
 sudo cp libuv* /usr/local/lib/
 sudo cp librdkafka* /usr/local/lib/
@@ -14,7 +14,7 @@ sudo ln -s libuv.so.1.0.0 libuv.so.1
 sudo ln -s librdkafka.so.1 librdkafka.so
 sudo ln -s librdkafka++.so.1 librdkafka++.so
 
-ls -ls libpcre* 
+ls -ls libpcre*
 ls -ls libuv*
 ls -ls librdkafka*
 
